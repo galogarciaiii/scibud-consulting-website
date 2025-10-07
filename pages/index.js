@@ -114,7 +114,7 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-semibold">About</h2>
             <div className="mt-6 grid gap-8 md:grid-cols-[1fr,2fr] items-start">
               <Image
-                src="/headshot.jpg" // optional headshot
+                src="/headshot.jpg"
                 alt="Galo Garcia III"
                 width={640}
                 height={640}
