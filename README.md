@@ -21,7 +21,7 @@ A single **“Contact me”** button in the header (in ornamental pepper color) 
 
 * **[Next.js](https://nextjs.org/)** – React-based framework for static and dynamic site rendering
 * **[Tailwind CSS](https://tailwindcss.com/)** – utility-first CSS for modern, responsive design
-* **[TypeScript / JavaScript (ES6)]** – component-driven logic
+* **[JavaScript (ES6)]** – component-driven logic
 * **[Vercel](https://vercel.com/)** (optional) – deployment platform for fast global delivery
 
 ---
