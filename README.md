@@ -31,9 +31,9 @@ A single **“Contact me”** button in the header (in ornamental pepper color) 
 ```
 scibud-consulting/
 ├── pages/
-│   ├── index.tsx        # Homepage (hero, services, about)
-│   ├── contact.tsx      # Contact form or link
-│   └── _app.tsx         # Global styles and app config
+│   ├── index.js         # Homepage (hero, services, about)
+│   ├── contact.js       # Contact form or link
+│   └── _app.js          # Global styles and app config
 ├── public/
 │   ├── logo.png         # SciBud Consulting logo
 │   └── headshot.jpg     # Optional bio image
