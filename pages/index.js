@@ -19,7 +19,7 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/logo.png" // update to your logo path
+                src="/logo.png" // TODO: update to your logo path
                 alt="SciBud Consulting"
                 width={40}
                 height={40}
