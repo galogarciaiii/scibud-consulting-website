@@ -26,7 +26,9 @@ export default function Home() {
                 className="rounded-md"
                 priority
               />
-              <span className="hidden sm:inline font-semibold">SciBud Consulting</span>
+              <span className="hidden sm:inline font-semibold text-4xl md:text-5xl tracking-tight">
+                SciBud Consulting
+              </span>
             </Link>
 
 
@@ -60,12 +62,12 @@ export default function Home() {
               <div className="rounded-2xl bg-white/5 p-6 backdrop-blur-sm border border-white/10">
                 <h3 className="text-lg font-semibold">Assay Development</h3>
                 <p className="mt-2 text-sm text-white/80">
-                  Design, optimize, and validate biochemical and cell-based assays. Robust SOPs, controls, and analysis pipelines to de-risk decisions.
+                  Expertise in designing and optimizing assays that uncover challenging molecular targets—combining rigorous controls and quantitative readouts to ensure reproducible performance.
                 </p>
                 <ul className="mt-4 text-sm list-disc pl-5 text-white/80 space-y-1">
-                  <li>Assay design & QC strategy</li>
-                  <li>Throughput & automation planning</li>
-                  <li>Data capture & analysis templates</li>
+                  <li>Assay design, validation & QC strategy</li>
+                  <li>Troubleshooting biochemical and cell-based workflows</li>
+                  <li>Custom SOPs & data analysis pipelines</li>
                 </ul>
               </div>
 
@@ -73,25 +75,25 @@ export default function Home() {
               <div className="rounded-2xl bg-white/5 p-6 backdrop-blur-sm border border-white/10">
                 <h3 className="text-lg font-semibold">Image Analysis</h3>
                 <p className="mt-2 text-sm text-white/80">
-                  End-to-end pipelines for microscopy and HCS: segmentation, feature extraction, and reporting tailored to your biology.
+                  Quantitative workflows for microscopy and high-content imaging—extracting hundreds of cellular features per well to reveal phenotypes, mechanisms, and quality metrics at scale.
                 </p>
                 <ul className="mt-4 text-sm list-disc pl-5 text-white/80 space-y-1">
-                  <li>CellProfiler/Fiji → Python pipelines</li>
-                  <li>QC dashboards & reproducibility</li>
-                  <li>Dose–response & phenotyping</li>
+                  <li>CellProfiler & Python-based feature extraction</li>
+                  <li>High-throughput phenotyping & comparative analysis</li>
+                  <li>Actionable data summaries for screening and decision-making</li>
                 </ul>
               </div>
 
-              {/* Molecular Design & Animation */}
+              {/* Molecular Design & Visualization */}
               <div className="rounded-2xl bg-white/5 p-6 backdrop-blur-sm border border-white/10">
-                <h3 className="text-lg font-semibold">Molecular Design & Animation</h3>
+                <h3 className="text-lg font-semibold">Molecular Design & Visualization</h3>
                 <p className="mt-2 text-sm text-white/80">
-                  Clear molecular visuals and animations for pitches, docs, and internal onboarding—science-accurate and audience-aware.
+                  Communicate complex biology with precision. From molecular models to therapeutic mechanism visuals, designs are optimized for investor decks, publications, and R&D collaboration.
                 </p>
                 <ul className="mt-4 text-sm list-disc pl-5 text-white/80 space-y-1">
-                  <li>Sequence & structure visuals</li>
-                  <li>Mechanism-of-action animations</li>
-                  <li>Figure & slide production</li>
+                  <li>Protein & ligand structure visualization</li>
+                  <li>Mechanism-of-action & pathway illustrations and animations</li>
+                  <li>Custom figures for decks, communications, and investor relations</li>
                 </ul>
               </div>
             </div>
@@ -102,7 +104,7 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-semibold">About</h2>
             <div className="mt-6 grid gap-8 md:grid-cols-[1fr,2fr] items-start">
               <Image
-                src="/headshot.jpg"
+                src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/GG_headshot_Arcadia.jpg"
                 alt="Galo Garcia III"
                 width={640}
                 height={640}
@@ -110,12 +112,13 @@ export default function Home() {
               />
               <div>
                 <p className="text-white/85 leading-relaxed">
-                  I’m Galo Garcia III, Ph.D., a molecular & cell biologist who builds practical, reproducible workflows for early-stage R&D.
-                  I bridge wet-lab experimentation and computational analysis to turn complex problems into clear, testable results.
+                  I bridge two worlds: bench science and computational data analysis. Trained as a molecular and cell biologist (Ph.D., UC Berkeley), I’ve spent years at the bench and behind the microscope, uncovering nanoscale mechanisms of disease and developing new assays, imaging approaches, and tools for discovery.
+                  More recently, I’ve applied the same rigor to computational systems. I independently designed, built, and deployed SciBud, an AI-powered agent that ingests ~100 new biomedical papers every 12 hours, ranks them, and automatically generates science news podcasts published on Apple Podcasts. Building SciBud required designing robust backend pipelines, integrating Google Cloud and OpenAI APIs, and deploying a production-ready service capable of continuous, reliable output.
+                  What sets me apart is the ability to move fluidly between wet-lab experimentation, advanced microscopy, computational analysis, and AI engineering. I thrive at the intersection of biology and technology, where solving complex problems means knowing how to generate data at the bench, extract meaning with computational tools, and engineer intelligent systems that scale insights into impact.
                 </p>
                 <p className="mt-4 text-white/80 leading-relaxed">
                   Recent work includes high-content imaging pipelines, assay design and validation, and production-quality molecular visuals for investor and
-                  scientific communications. I collaborate quickly, document thoroughly, and deliver with polish.
+                  scientific communications. I collaborate quickly and deliver with polish.
                 </p>
                 <div className="mt-6">
                   <Link
@@ -135,12 +138,6 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-6 py-6 text-sm text-white/60 flex flex-col md:flex-row items-center justify-between gap-4">
             <p>© {new Date().getFullYear()} SciBud Consulting</p>
             <div className="flex items-center gap-6">
-              <Link href="/privacy" className="hover:text-white/80">
-                Privacy
-              </Link>
-              <Link href="/terms" className="hover:text-white/80">
-                Terms
-              </Link>
             </div>
           </div>
         </footer>
