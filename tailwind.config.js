@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
-        sans: ['Inter', 'sans-serif'],
       },
       colors: {
         green: {

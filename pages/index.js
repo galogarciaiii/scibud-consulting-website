@@ -17,17 +17,18 @@ export default function Home() {
         {/* Header */}
         <header className="w-full border-b border-white/10">
           <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-3" aria-label="SciBud Consulting">
               <Image
-                src="/logo.png" // TODO: update to your logo path
+                src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/logo_alone.png"
                 alt="SciBud Consulting"
                 width={40}
                 height={40}
                 className="rounded-md"
                 priority
               />
-              <span className="sr-only">SciBud Consulting</span>
+              <span className="hidden sm:inline font-semibold">SciBud Consulting</span>
             </Link>
+
 
             <Link
               href="/contact"
@@ -42,26 +43,13 @@ export default function Home() {
         <main className="flex-1">
           {/* Hero */}
           <section className="mx-auto max-w-6xl px-6 pt-12 pb-16 text-center">
-            <h1 className="text-4xl md:text-5xl font-serif tracking-tight">
-              Practical R&D expertise for early-stage biotech
+            <h1 className="text-4xl md:text-5xl font-sans tracking-tight">
+              Practical R&D problem solving for early-stage biotech
             </h1>
             <p className="mt-4 text-base md:text-lg text-white/80 max-w-2xl mx-auto">
               Assay development, image analysis, and molecular design & animation—delivered with scientific rigor and startup speed.
             </p>
-            <div className="mt-8 flex justify-center gap-4">
-              <Link
-                href="#services"
-                className="rounded-xl border border-white/20 px-4 py-2 text-sm hover:bg-white/5"
-              >
-                Explore services
-              </Link>
-              <Link
-                href="/contact"
-                className="rounded-xl bg-ornamental_pepper px-4 py-2 text-sm font-medium text-pine hover:opacity-90"
-              >
-                Start a project
-              </Link>
-            </div>
+
           </section>
 
           {/* Services */}
