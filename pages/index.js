@@ -21,16 +21,24 @@ export default function Home() {
               <Image
                 src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/logo_alone.png"
                 alt="SciBud Consulting"
-                width={40}
-                height={40}
+                width={60}
+                height={60}
                 className="rounded-md"
                 priority
               />
-              <span className="hidden sm:inline font-semibold text-4xl md:text-5xl tracking-tight">
+              <span className="hidden sm:inline font-semibold text-6xl md:text-7xl tracking-tight">
                 SciBud Consulting
               </span>
             </Link>
 
+            <nav className="hidden md:flex items-center gap-6">
+              <Link href="/academy" className="text-xl text-white/80 hover:text-white transition-colors">
+                Academy
+              </Link>
+              <Link href="/media" className="text-xl text-white/80 hover:text-white transition-colors">
+                Media
+              </Link>
+            </nav>
 
             <Link
               href="/contact"
@@ -59,7 +67,7 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-semibold">Services</h2>
             <div className="mt-8 grid gap-6 md:grid-cols-3">
               {/* Assay Development */}
-              <div className="rounded-2xl bg-white/5 p-6 backdrop-blur-sm border border-white/10">
+              <div className="rounded-2xl bg-gray-800 p-6 backdrop-blur-sm border border-white/10">
                 <h3 className="text-lg font-semibold">Assay Development</h3>
                 <p className="mt-2 text-sm text-white/80">
                   Expertise in designing and optimizing assays that uncover challenging molecular targets—combining rigorous controls and quantitative readouts to ensure reproducible performance.
@@ -72,7 +80,7 @@ export default function Home() {
               </div>
 
               {/* Image Analysis */}
-              <div className="rounded-2xl bg-white/5 p-6 backdrop-blur-sm border border-white/10">
+              <div className="rounded-2xl bg-gray-800 p-6 backdrop-blur-sm border border-white/10">
                 <h3 className="text-lg font-semibold">Image Analysis</h3>
                 <p className="mt-2 text-sm text-white/80">
                   Quantitative workflows for microscopy and high-content imaging—extracting hundreds of cellular features per well to reveal phenotypes, mechanisms, and quality metrics at scale.
@@ -85,7 +93,7 @@ export default function Home() {
               </div>
 
               {/* Molecular Design & Visualization */}
-              <div className="rounded-2xl bg-white/5 p-6 backdrop-blur-sm border border-white/10">
+              <div className="rounded-2xl bg-gray-800 p-6 backdrop-blur-sm border border-white/10">
                 <h3 className="text-lg font-semibold">Molecular Design & Visualization</h3>
                 <p className="mt-2 text-sm text-white/80">
                   Communicate complex biology with precision. From molecular models to therapeutic mechanism visuals, designs are optimized for investor decks, publications, and R&D collaboration.
@@ -106,20 +114,17 @@ export default function Home() {
               <Image
                 src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/GG_headshot_Arcadia.jpg"
                 alt="Galo Garcia III"
-                width={640}
-                height={640}
-                className="rounded-2xl border border-white/10 object-cover w-full h-auto"
+                width={300}
+                height={300}
+                className="rounded-2xl border border-white/10 object-cover w-full h-auto max-w-xs"
               />
               <div>
                 <p className="text-white/85 leading-relaxed">
-                  I bridge two worlds: bench science and computational data analysis. Trained as a molecular and cell biologist (Ph.D., UC Berkeley), I’ve spent years at the bench and behind the microscope, uncovering nanoscale mechanisms of disease and developing new assays, imaging approaches, and tools for discovery.
-                  More recently, I’ve applied the same rigor to computational systems. I independently designed, built, and deployed SciBud, an AI-powered agent that ingests ~100 new biomedical papers every 12 hours, ranks them, and automatically generates science news podcasts published on Apple Podcasts. Building SciBud required designing robust backend pipelines, integrating Google Cloud and OpenAI APIs, and deploying a production-ready service capable of continuous, reliable output.
-                  What sets me apart is the ability to move fluidly between wet-lab experimentation, advanced microscopy, computational analysis, and AI engineering. I thrive at the intersection of biology and technology, where solving complex problems means knowing how to generate data at the bench, extract meaning with computational tools, and engineer intelligent systems that scale insights into impact.
+                  I bridge two worlds: bench science and computational data analysis. Trained as a molecular and cell biologist (Ph.D., UC Berkeley), I’ve spent years at the bench and behind the microscope, uncovering disease mechanisms at the nanoscale and developing new assays, imaging approaches, and analytical tools. My work spans advanced microscopy, quantitative image analysis, and high-content experimental pipelines, with an emphasis on rigor, reproducibility, and biological insight.
+
+Recent work includes assay design and validation, high-content imaging pipelines, and production-quality molecular visuals for scientific and investor communications. I collaborate quickly, translate complex biology into clear results, and deliver polished, decision-ready outputs.
                 </p>
-                <p className="mt-4 text-white/80 leading-relaxed">
-                  Recent work includes high-content imaging pipelines, assay design and validation, and production-quality molecular visuals for investor and
-                  scientific communications. I collaborate quickly and deliver with polish.
-                </p>
+
                 <div className="mt-6">
                   <Link
                     href="/contact"

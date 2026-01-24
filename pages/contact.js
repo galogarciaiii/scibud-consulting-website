@@ -1,14 +1,18 @@
 export default function Contact() {
   return (
-    <main className="p-8">
-      <h1 className="text-4xl font-serif text-green-900 mb-6">Contact</h1>
-      <form className="space-y-4 max-w-md mx-auto">
-        <input type="text" placeholder="Your Name" className="w-full p-2 border rounded" />
-        <input type="email" placeholder="Your Email" className="w-full p-2 border rounded" />
-        <textarea placeholder="Your Message" className="w-full p-2 border rounded h-32" />
-        <button type="submit" className="bg-green-700 text-white px-4 py-2 rounded">Send</button>
-      </form>
-      <p className="mt-4 text-center">Or <a href="https://your-acuity-url" className="text-green-700 underline">book a consultation</a>.</p>
+    <main className="min-h-screen bg-pine text-white p-8">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-semibold mb-6">Get in Touch</h1>
+        <p className="text-lg text-white/80 mb-8">
+          Ready to discuss your project? Send me an email and I'll get back to you promptly.
+        </p>
+        <a 
+          href="mailto:galo.garcia@scibud.consulting"
+          className="inline-flex items-center rounded-xl bg-ornamental_pepper px-6 py-3 text-lg font-medium text-pine hover:opacity-90 transition-opacity"
+        >
+          Email: galo.garcia@scibud.consulting
+        </a>
+      </div>
     </main>
   )
 }
