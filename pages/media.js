@@ -33,7 +33,7 @@ export default function Media() {
                 className="rounded-md"
                 priority
               />
-              <span className="font-semibold text-xl sm:text-4xl md:text-6xl tracking-tight">
+              <span className="font-semibold text-3xl sm:text-4xl md:text-6xl tracking-tight">
                 SciBud Media
               </span>
             </Link>
