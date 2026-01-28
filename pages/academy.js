@@ -40,8 +40,8 @@ export default function Academy() {
               <Link href="/" className="text-xl text-white/80 hover:text-white transition-colors">
                 Consulting
               </Link>
-              <Link href="/academy" className="text-xl text-white/80 hover:text-white transition-colors">
-                Academy
+              <Link href="/media" className="text-xl text-white/80 hover:text-white transition-colors">
+                Media
               </Link>
               <Link
                 href="/contact"
@@ -86,11 +86,11 @@ export default function Academy() {
                   Consulting
                 </Link>
                 <Link
-                  href="/academy"
+                  href="/media"
                   onClick={() => setMenuOpen(false)}
                   className="text-base text-white/80 hover:text-white transition-colors"
                 >
-                  Academy
+                  Media
                 </Link>
                 <Link
                   href="/contact"
@@ -114,26 +114,25 @@ export default function Academy() {
 
             <div className="mt-4 text-base md:text-lg text-white/80 max-w-3xl mx-auto text-justify">
               <p className="leading-relaxed">
-                I work with disciplined, curious students who want to think like scientists—not just check boxes.
-                In our sessions, we slow down and ask better questions: What genuinely interests you? What kind of
-                scientist do you want to become? What skills do you want to grow right now? From there, I help
-                students learn how to articulate those interests clearly and turn them into focused, meaningful goals.
+                I work with disciplined, curious students who want to think like scientists—not just check boxes. In our sessions,
+                we slow down and ask better questions: What genuinely interests you? What kind of scientist do you want to become?
+                What skills do you want to grow right now? From there, I help students learn how to articulate those interests
+                clearly and turn them into focused, meaningful goals.
               </p>
 
               <p className="mt-4 leading-relaxed">
-                Each path is guided by concrete outcomes. Students may develop a polished scientific review article
-                suitable for submission to a student-focused journal, or design and complete a science fair project
-                with a manuscript and poster that could also be published in a student journal. For students applying
-                to summer programs or college, I provide detailed feedback on essays—helping them communicate thoughtful
-                program fit, intellectual curiosity, and a growth mindset that shows how each opportunity will
-                accelerate their development.
+                Each path is guided by concrete outcomes. Students may develop a polished scientific review article suitable for
+                submission to a student-focused journal, or design and complete a science fair project with a manuscript and poster
+                that could also be published in a student journal. For students applying to summer programs or college, I provide
+                detailed feedback on essays—helping them communicate thoughtful program fit, intellectual curiosity, and a growth
+                mindset that shows how each opportunity will accelerate their development.
               </p>
 
               <p className="mt-4 leading-relaxed">
-                Across all of this work, the emphasis is the same: critical thinking, ownership, and clarity.
-                The deliverables matter, but they are not the end goal. They are evidence that a student has learned
-                how to define their own goals, reason carefully, and communicate their ideas with confidence—skills
-                that will serve them well far beyond any single project or application.
+                Across all of this work, the emphasis is the same: critical thinking, ownership, and clarity. The deliverables
+                matter, but they are not the end goal. They are evidence that a student has learned how to define their own goals,
+                reason carefully, and communicate their ideas with confidence—skills that will serve them well far beyond any single
+                project or application.
               </p>
             </div>
 
@@ -174,8 +173,8 @@ export default function Academy() {
               <div className="rounded-2xl bg-gray-800 p-8 backdrop-blur-sm border border-white/10">
                 <h3 className="text-xl md:text-2xl font-semibold">Science Fair Project</h3>
                 <p className="mt-3 text-white/80 leading-relaxed">
-                  Guidance from idea → testable question → experimental design → data analysis → results and discussion,
-                  ending with a strong poster and presentation practice.
+                  Guidance from idea → testable question → experimental design → data analysis → results and discussion, ending
+                  with a strong poster and presentation practice.
                 </p>
                 <ul className="mt-5 space-y-2 text-white/75">
                   <li>• Typical timeline: ~8–10 sessions (3–4 months)</li>
@@ -187,8 +186,8 @@ export default function Academy() {
               <div className="rounded-2xl bg-gray-800 p-8 backdrop-blur-sm border border-white/10">
                 <h3 className="text-xl md:text-2xl font-semibold">Summer Program Essays</h3>
                 <p className="mt-3 text-white/80 leading-relaxed">
-                  Structured brainstorming and drafting to help students write authentic, specific essays that connect
-                  interests, experiences, and intellectual goals—without sounding generic.
+                  Structured brainstorming and drafting to help students write authentic, specific essays that connect interests,
+                  experiences, and intellectual goals—without sounding generic.
                 </p>
                 <ul className="mt-5 space-y-2 text-white/75">
                   <li>• Clarify program fit + deadlines</li>
@@ -200,8 +199,8 @@ export default function Academy() {
               <div className="rounded-2xl bg-gray-800 p-8 backdrop-blur-sm border border-white/10">
                 <h3 className="text-xl md:text-2xl font-semibold">College Application Guidance</h3>
                 <p className="mt-3 text-white/80 leading-relaxed">
-                  Support with application strategy and writing: personal statements, activity descriptions,
-                  and supplemental essays—especially for students emphasizing science and research.
+                  Support with application strategy and writing: personal statements, activity descriptions, and supplemental
+                  essays—especially for students emphasizing science and research.
                 </p>
                 <ul className="mt-5 space-y-2 text-white/75">
                   <li>• Clear positioning and voice</li>
@@ -304,27 +303,27 @@ export default function Academy() {
               {/* Text */}
               <div className="max-w-3xl text-justify">
                 <p className="text-white/85 leading-relaxed">
-                  I grew up in a high-expectation household. My mom believed that effort mattered—but only if it was complete.
-                  One hundred percent was the standard. Ninety-nine percent didn’t count. That mindset shaped how I approached
-                  school, science, and eventually my career. It taught me discipline, persistence, and how to perform under
-                  pressure—but it also showed me how easy it is for achievement to become something you do for others,
-                  rather than something you define for yourself.
+                  I grew up in a high-expectation household. My mom believed that effort mattered—but only if it was complete. One
+                  hundred percent was the standard. Ninety-nine percent didn’t count. That mindset shaped how I approached school,
+                  science, and eventually my career. It taught me discipline, persistence, and how to perform under pressure—but it
+                  also showed me how easy it is for achievement to become something you do for others, rather than something you
+                  define for yourself.
                 </p>
 
                 <p className="mt-4 text-white/85 leading-relaxed">
-                  I’ve spent my professional life in demanding scientific environments—Harvard, UC Berkeley, UCSF, and
-                  high-intensity research labs where rigor and precision are non-negotiable. Much of my work happened under
-                  real constraints: limited time, limited resources, and pressure to make the right decisions early. I’ve learned
-                  how to ask the most important questions first, extract signal from messy data, and turn uncertainty into clear,
-                  actionable next steps. I know what it means to operate at a high level—and what it costs when goals aren’t truly your own.
+                  I’ve spent my professional life in demanding scientific environments—Harvard, UC Berkeley, UCSF, and high-intensity
+                  research labs where rigor and precision are non-negotiable. Much of my work happened under real constraints:
+                  limited time, limited resources, and pressure to make the right decisions early. I’ve learned how to ask the most
+                  important questions first, extract signal from messy data, and turn uncertainty into clear, actionable next steps. I
+                  know what it means to operate at a high level—and what it costs when goals aren’t truly your own.
                 </p>
 
                 <p className="mt-4 text-white/85 leading-relaxed">
                   That experience shapes how I mentor students. Many high-achieving students are very good at meeting expectations
                   set by parents, teachers, or programs—but haven’t yet been given space to define their own goals. My role is to help
-                  students slow down, think deeply, and articulate what kind of scientist they want to become. From there, we build the
-                  skills, habits, and confidence to pursue that vision with rigor and integrity. The goal isn’t perfection. It’s ownership—
-                  so students don’t just succeed, but succeed on their own terms.
+                  students slow down, think deeply, and articulate what kind of scientist they want to become. From there, we build
+                  the skills, habits, and confidence to pursue that vision with rigor and integrity. The goal isn’t perfection. It’s
+                  ownership—so students don’t just succeed, but succeed on their own terms.
                 </p>
 
                 <div className="mt-6 flex flex-col sm:flex-row gap-3">
@@ -349,8 +348,8 @@ export default function Academy() {
           <section className="mx-auto max-w-6xl px-6 pb-20 text-center">
             <h2 className="text-2xl md:text-3xl font-semibold mb-4">Interested?</h2>
             <p className="text-white/80 mb-8 max-w-2xl mx-auto">
-              If you’re a motivated student (or parent) looking for structured, high-standard guidance, reach out and tell me
-              what you’re working on. I’ll share next steps and availability.
+              If you’re a motivated student (or parent) looking for structured, high-standard guidance, reach out and tell me what
+              you’re working on. I’ll share next steps and availability.
             </p>
             <Link
               href="/contact"
