@@ -1,8 +1,11 @@
+import { useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
 
 export default function Academy() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <>
       <Head>
@@ -17,20 +20,22 @@ export default function Academy() {
         {/* Header */}
         <header className="w-full border-b border-white/10">
           <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
+            {/* Logo + Title */}
             <Link href="/" className="flex items-center gap-3" aria-label="SciBud Consulting">
               <Image
                 src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/logo_alone.png"
                 alt="SciBud"
-                width={60}
-                height={60}
+                width={48}
+                height={48}
                 className="rounded-md"
                 priority
               />
-              <span className="hidden sm:inline font-semibold text-6xl md:text-7xl tracking-tight">
+              <span className="font-semibold text-xl sm:text-4xl md:text-6xl tracking-tight">
                 SciBud Academy
               </span>
             </Link>
 
+            {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-6">
               <Link href="/" className="text-xl text-white/80 hover:text-white transition-colors">
                 Consulting
@@ -38,15 +43,65 @@ export default function Academy() {
               <Link href="/academy" className="text-xl text-white/80 hover:text-white transition-colors">
                 Academy
               </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center rounded-xl bg-ornamental_pepper px-4 py-2 text-sm font-medium text-pine hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ornamental_pepper/60"
+              >
+                Contact me
+              </Link>
             </nav>
 
-            <Link
-              href="/contact"
-              className="inline-flex items-center rounded-xl bg-ornamental_pepper px-4 py-2 text-sm font-medium text-pine hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ornamental_pepper/60"
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden inline-flex items-center justify-center rounded-lg border border-white/20 p-2 text-white/80 hover:text-white transition-colors"
+              onClick={() => setMenuOpen((v) => !v)}
+              aria-label="Toggle menu"
+              aria-expanded={menuOpen}
             >
-              Contact me
-            </Link>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                {menuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
           </div>
+
+          {/* Mobile Menu */}
+          {menuOpen && (
+            <div className="md:hidden border-t border-white/10 bg-pine">
+              <nav className="px-6 py-4 flex flex-col gap-4">
+                <Link
+                  href="/"
+                  onClick={() => setMenuOpen(false)}
+                  className="text-base text-white/80 hover:text-white transition-colors"
+                >
+                  Consulting
+                </Link>
+                <Link
+                  href="/academy"
+                  onClick={() => setMenuOpen(false)}
+                  className="text-base text-white/80 hover:text-white transition-colors"
+                >
+                  Academy
+                </Link>
+                <Link
+                  href="/contact"
+                  onClick={() => setMenuOpen(false)}
+                  className="inline-flex w-fit rounded-xl bg-ornamental_pepper px-4 py-2 text-sm font-medium text-pine hover:opacity-90 transition-colors"
+                >
+                  Contact me
+                </Link>
+              </nav>
+            </div>
+          )}
         </header>
 
         {/* Main */}
