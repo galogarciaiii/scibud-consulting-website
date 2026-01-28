@@ -12,7 +12,7 @@ export default function Academy() {
         <title>SciBud Academy - Scientific Guidance for Students</title>
         <meta
           name="description"
-          content="1-on-1 mentorship for high-achieving students: scientific review papers, science fair projects, summer program essays, and college application guidance."
+          content="1-on-1 mentorship for students: scientific review papers, science fair projects, summer program essays, and college application guidance."
         />
       </Head>
 
@@ -109,12 +109,12 @@ export default function Academy() {
           {/* Hero */}
           <section className="mx-auto max-w-6xl px-6 pt-12 pb-12 text-center">
             <h1 className="text-4xl md:text-5xl font-sans tracking-tight">
-              1-on-1 Scientific Guidance for High-Achieving Students
+              1-on-1 Scientific Guidance for Students
             </h1>
 
             <div className="mt-4 text-base md:text-lg text-white/80 max-w-3xl mx-auto text-justify">
               <p className="leading-relaxed">
-                I work with disciplined, curious students who want to think like scientists—not just check boxes. In our sessions,
+                I work with curious students who want to think like scientists—not just check boxes. In our sessions,
                 we slow down and ask better questions: What genuinely interests you? What kind of scientist do you want to become?
                 What skills do you want to grow right now? From there, I help students learn how to articulate those interests
                 clearly and turn them into focused, meaningful goals.
@@ -319,9 +319,9 @@ export default function Academy() {
                 </p>
 
                 <p className="mt-4 text-white/85 leading-relaxed">
-                  That experience shapes how I mentor students. Many high-achieving students are very good at meeting expectations
+                  That experience shapes how I mentor students. Many highly motivated students are very good at meeting expectations
                   set by parents, teachers, or programs—but haven’t yet been given space to define their own goals. My role is to help
-                  students slow down, think deeply, and articulate what kind of scientist they want to become. From there, we build
+                  students slow down, think deeply, and articulate what kind of professional they want to become. From there, we build
                   the skills, habits, and confidence to pursue that vision with rigor and integrity. The goal isn’t perfection. It’s
                   ownership—so students don’t just succeed, but succeed on their own terms.
                 </p>
