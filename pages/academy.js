@@ -321,7 +321,7 @@ export default function Academy() {
                 <p className="mt-4 text-white/85 leading-relaxed">
                   That experience shapes how I mentor students. Many highly motivated students are very good at meeting expectations
                   set by parents, teachers, or programs—but haven’t yet been given space to define their own goals. My role is to help
-                  students slow down, think deeply, and articulate what kind of scientist they want to become. From there, we build
+                  students slow down, think deeply, and articulate what kind of professional they want to become. From there, we build
                   the skills, habits, and confidence to pursue that vision with rigor and integrity. The goal isn’t perfection. It’s
                   ownership—so students don’t just succeed, but succeed on their own terms.
                 </p>
