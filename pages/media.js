@@ -26,7 +26,7 @@ export default function Media() {
             {/* Logo + Title */}
             <Link href="/" className="flex items-center gap-3" aria-label="SciBud Consulting">
               <Image
-                src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/logo_alone.png"
+                src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/scibud_logo_260325.svg"
                 alt="SciBud"
                 width={48}
                 height={48}
