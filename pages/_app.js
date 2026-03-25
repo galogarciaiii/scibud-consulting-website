@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { Nunito } from 'next/font/google'
 
 const nunito = Nunito({ subsets: ['latin'], weight: ['300','400','600','700'] })
-const BRAND_LOGO_URL = 'https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/scibud_logo_260325.svg'
+const BRAND_LOGO_URL = 'https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/scibud_logo_path_260325.svg'
 
 export default function App({ Component, pageProps }) {
   return (
