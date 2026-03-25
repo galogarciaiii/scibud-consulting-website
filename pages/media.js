@@ -23,19 +23,16 @@ export default function Media() {
         {/* Header */}
         <header className="w-full border-b border-white/10">
           <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-            {/* Logo + Title */}
-            <Link href="/" className="flex items-center gap-3" aria-label="SciBud Consulting">
+            {/* Logo */}
+            <Link href="/" className="flex items-center" aria-label="SciBud Consulting">
               <Image
                 src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/scibud_logo_260325.svg"
                 alt="SciBud"
-                width={48}
-                height={48}
+                width={80}
+                height={80}
                 className="rounded-md"
                 priority
               />
-              <span className="font-semibold text-3xl sm:text-4xl md:text-6xl tracking-tight">
-                SciBud Media
-              </span>
             </Link>
 
             {/* Desktop Nav */}

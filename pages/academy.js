@@ -20,28 +20,22 @@ export default function Academy() {
         {/* Header */}
         <header className="w-full border-b border-white/10">
           <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-            {/* Logo + Title */}
-            <Link href="/" className="flex items-center gap-3" aria-label="SciBud Consulting">
+            {/* Logo */}
+            <Link href="/" className="flex items-center" aria-label="SciBud Consulting">
               <Image
                 src="https://storage.googleapis.com/bucket-sci-bud/bioimaging/artwork/scibud_logo_260325.svg"
                 alt="SciBud"
-                width={48}
-                height={48}
+                width={80}
+                height={80}
                 className="rounded-md"
                 priority
               />
-              <span className="font-semibold text-3xl sm:text-4xl md:text-6xl tracking-tight">
-                SciBud Academy
-              </span>
             </Link>
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-6">
               <Link href="/" className="text-xl text-white/80 hover:text-white transition-colors">
                 Consulting
-              </Link>
-              <Link href="/media" className="text-xl text-white/80 hover:text-white transition-colors">
-                Media
               </Link>
               <Link
                 href="/contact"
@@ -86,13 +80,6 @@ export default function Academy() {
                   Consulting
                 </Link>
                 <Link
-                  href="/media"
-                  onClick={() => setMenuOpen(false)}
-                  className="text-base text-white/80 hover:text-white transition-colors"
-                >
-                  Media
-                </Link>
-                <Link
                   href="/contact"
                   onClick={() => setMenuOpen(false)}
                   className="inline-flex w-fit rounded-xl bg-ornamental_pepper px-4 py-2 text-sm font-medium text-pine hover:opacity-90 transition-colors"
@@ -114,10 +101,10 @@ export default function Academy() {
 
             <div className="mt-4 text-base md:text-lg text-white/80 max-w-3xl mx-auto text-justify">
               <p className="leading-relaxed">
-                I work with curious students who want to think like scientists—not just check boxes. In our sessions,
-                we slow down and ask better questions: What genuinely interests you? What kind of scientist do you want to become?
-                What skills do you want to grow right now? From there, I help students learn how to articulate those interests
-                clearly and turn them into focused, meaningful goals.
+                I work with curious students who want to think like scientists—not just check boxes. In our sessions, we slow down
+                and ask better questions: What genuinely interests you? What do you want to understand more deeply? What skills do 
+                you want to grow? From there, I help students turn those interests into clear, meaningful goals — while building 
+                critical, constructive, and independent thinking.
               </p>
 
               <p className="mt-4 leading-relaxed">
